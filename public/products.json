@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "Cools Tire",
+        "img" : "https://i.ibb.co/zxXNZC1/5.png",
+        "price" : 60
+    },
+    {
+        "id" : 2,
+        "name" : "Car Engine Plug",
+        "img" : "https://i.ibb.co/TMns8vR/6.png",
+        "price" : 150
+    },
+    {
+        "id" : 3,
+        "name" : "Car Air Filter",
+        "img" : "https://i.ibb.co/BVdFHj9/3.png",
+        "price" : 80
+    },
+    {
+        "id" : 4,
+        "name" : "Car Battery",
+        "img" : "https://i.ibb.co/cN9j02r/4.png",
+        "price" : 110
+    },
+    {
+        "id" : 5,
+        "name" : "Engine Plug",
+        "img" : "https://i.ibb.co/84KtzV1/2.png",
+        "price" : 40
+    },
+    {
+        "id" : 6,
+        "name" : "Cools Led Light",
+        "img" : "https://i.ibb.co/kJTmfLq/1.png",
+        "price" : 70
+    }
+]

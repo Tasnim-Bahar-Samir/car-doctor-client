@@ -10,7 +10,7 @@ const BannerDetails = ({data}) => {
     </div>
     <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 right-5 bottom-5">
       <a href={`#slide${prev}`} className="btn btn-circle backdrop-blur-2xl border-none bg-transparent"><BsArrowLeftShort className='w-12 h-6'/></a> 
-      <a href={`#slide${next}`} className="btn btn-circle bg-orange-600"><BsArrowRightShort className='w-12 h-6'/></a>
+      <a href={`#slide${next}`} className="btn btn-circle bg-orange-600 border-none"><BsArrowRightShort className='w-12 h-6'/></a>
     </div>
     <div className="absolute text-white transform -translate-y-1/2 left-24 top-1/2 text-left ">
       <h1 className='text-6xl font-bold text-white'>Affordable <br />
