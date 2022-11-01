@@ -1,15 +1,16 @@
 import React from 'react'
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 const BannerDetails = ({data}) => {
     const {img,id,prev,next} = data;
   return (
     <div id={`slide${id}`} className="carousel-item relative w-full ">
     <div className='banner-img '>
-        <img src={img} className="w-full h-full rounded-lg" />
+        <img src={img} alt='img' className="w-full h-full rounded-lg" />
     </div>
-    <div className="absolute flex justify-end gap-2 transform -translate-y-1/2 right-5 bottom-5">
-      <a href={`#slide${prev}`} className="btn btn-circle">❮</a> 
-      <a href={`#slide${next}`} className="btn btn-circle">❯</a>
+    <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 right-5 bottom-5">
+      <a href={`#slide${prev}`} className="btn btn-circle backdrop-blur-2xl border-none bg-transparent"><BsArrowLeftShort className='w-12 h-6'/></a> 
+      <a href={`#slide${next}`} className="btn btn-circle bg-orange-600"><BsArrowRightShort className='w-12 h-6'/></a>
     </div>
     <div className="absolute text-white transform -translate-y-1/2 left-24 top-1/2 text-left ">
       <h1 className='text-6xl font-bold text-white'>Affordable <br />

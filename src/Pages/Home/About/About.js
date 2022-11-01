@@ -8,8 +8,8 @@ const About = () => {
         <div className="hero mb-32">
             <div className="hero-content gap-14 flex-col lg:flex-row">
                 <div className='w-1/2 relative h-full'>
-                    <img src={person} className=" rounded-lg shadow-2xl w-4/5" />
-                    <img src={parts} className=" rounded-lg shadow-2xl w-3/5 absolute right-5 top-32 border-8 " />
+                    <img src={person} alt='personImg' className=" rounded-lg shadow-2xl w-4/5" />
+                    <img src={parts} alt ='partsImg' className=" rounded-lg shadow-2xl w-3/5 absolute right-5 top-32 border-8 " />
                 </div>
                 <div className='w-1/2'>
                     <h1 className="text-5xl font-bold">We are qualified <br /> & of experience <br /> in this field</h1>
