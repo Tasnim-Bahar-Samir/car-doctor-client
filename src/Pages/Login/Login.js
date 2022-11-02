@@ -12,8 +12,9 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
         userLogin(email,password)
-        .then(() =>{
+        .then((result) =>{
             navigate('/')
+            console.log(result.user)
         })
         .catch(()=>{})
     }
