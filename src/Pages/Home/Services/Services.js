@@ -14,7 +14,7 @@ const Services = () => {
         <div className='text-center'>
             <p className='text-md text-orange-600'>Service</p>
             <h1 className='text-5xl font-bold my-5'>Our Service Area</h1>
-            <p>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <p className='text-lg mb-5 md:w-[717px] mx-auto'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
         <div className='grid grid-cols-3 gap-6'>
             {
