@@ -15,8 +15,24 @@ const Login = () => {
         const password = form.password.value;
         userLogin(email,password)
         .then((result) =>{
+          const currenUser = {
+            email: result.user.email,
+          }
+          console.log(currenUser)
+          fetch('https://genius-car-server-bice-five.vercel.app/jwt',{
+            method:"POST",
+            headers:{
+              'content-type': "application/json"
+            },
+            body: JSON.stringify(currenUser)
+          })
+          .then(res => res.json())
+          .then(data =>{
+            console.log(data)
+            localStorage.setItem('token',data.token)
             navigate(from,{replace:true})
-            console.log(result.user)
+          })
+           
         })
         .catch(()=>{})
     }
